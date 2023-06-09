@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/language"
+        android:checkable="false"
+        android:checked="false"
+        android:title="@string/setmenu_language" />
+    <item
+        android:id="@+id/unknown"
+        android:checkable="false"
+        android:title="@string/setmenu_hidden" />
+    <item
+        android:id="@+id/deleteDB"
+        android:title="@string/setmenu_deleteDB" />
+    <item
+        android:id="@+id/aboutus"
+        android:title="@string/setmenu_aboutus" />
+</menu>

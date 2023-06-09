@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkbackground"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/notesListView"
+        android:layout_width="367dp"
+        android:layout_height="591dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="10dp"
+        android:longClickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/addNoteButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsButton"
+        android:divider="#00000000"
+        android:dividerHeight="15.0sp"/>
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fontFamily="@font/actor"
+        android:gravity="center"
+        android:text="@string/m_empty"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/addNoteButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/m_add"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custombutton"
+        android:drawingCacheQuality="high"
+        android:ellipsize="start"
+        android:text="@string/m_setting"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

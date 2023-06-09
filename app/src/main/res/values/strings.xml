@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">NotesApp</string>
+
+    <string name="m_setting">Ayarlar</string>
+    <string name="m_add">Not Ekle</string>
+    <string name="m_empty">Not Ekle butonuna basarak yeni bir not kaydedin</string>
+    <string name="m_deleteAll_title">Bütün notları silmek istediğinize istediğinize emin misiniz?</string>
+    <string name="m_deleteAll_positiveButton">Sil</string>
+    <string name="m_deleteAll_cancelButton">Vazgeç</string>
+
+
+
+    <string name="in_delete">Notu Sil</string>
+    <string name="in_save">Notu Kaydet</string>
+    <string name="in_def_title">Başlık</string>
+    <string name="in_def_detail">Notunuzu buraya girin</string>
+    <string name="in_def_date">Tarih eklemek için tıklayın</string>
+    <string name="in_toast_date">Lütfen geçerli bir tarih giriniz</string>
+    <string name="in_hidden_switch">Notu Gizle</string>
+    <string name="in_def_hintTitle">Başlığı giriniz.</string>
+    <string name="in_def_hintDetail">Notunuzu giriniz</string>
+
+
+    <string name="al_header">Lütfen Ekleyeceğiniz Notu Giriniz.</string>
+    <string name="al_date">Notun Tarihini Seçiniz.</string>
+    <string name="al_add">Notu eklemek için basınız.</string>
+
+    <string name="menu_delete">Notu Sil</string>
+    <string name="menu_edit">Notu Düzenle</string>
+    <string name="setmenu_language">Dili Değiştir</string>
+    <string name="setmenu_hidden">Gizli Notları Göster</string>
+    <string name="setmenu_aboutus">Hakkında</string>
+    <string name="setmenu_deleteDB">Bütün notları sil</string>
+    <string name="app_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod porttitor odio vel sodales. Vivamus eu quam nec justo dapibus semper id vitae leo. Sed imperdiet quis est non dictum.
+</string>
+    <string name="m_hiddenText">Gizli Notları Göstermek istediğinize emin misiniz</string>
+    <string name="m_showButton">Göster</string>
+    <string name="m_noshowButton">Gösterme</string>
+
+
+</resources>

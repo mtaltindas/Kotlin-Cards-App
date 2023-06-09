@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NotesApp</string>
+    <string name="m_setting">Settings</string>
+    <string name="m_add">Add Note</string>
+    <string name="m_empty">Tap "ADD NOTE" to save a note</string>
+    <string name="m_deleteAll_title">Are you sure to delete all notes?</string>
+    <string name="m_deleteAll_positiveButton">Delete</string>
+    <string name="m_deleteAll_cancelButton">Cancel</string>
+    <string name="m_hiddenText">Are you sure to show hidden notes?</string>
+    <string name="m_showButton">Show</string>
+    <string name="m_noshowButton">Do not show</string>
+    <string name="in_delete">Delete Note</string>
+    <string name="in_save">Save</string>
+    <string name="in_def_title">Title</string>
+    <string name="in_def_detail">Enter your note here</string>
+    <string name="in_def_date">Enter date</string>
+    <string name="in_toast_date">Enter a valid date</string>
+    <string name="in_hidden_switch">Hide</string>
+    <string name="in_def_hintTitle">Enter title here</string>
+    <string name="in_def_hintDetail">Enter note here</string>
+
+    <string name="al_header">Please enter the note below that you want to add.</string>
+    <string name="al_date">Please enter the date of the note</string>
+    <string name="al_add">Press to save the note.</string>
+
+    <string name="menu_delete">Delete the Note</string>
+    <string name="menu_edit">Edit the Note</string>
+    <string name="setmenu_language">Change the Language</string>
+    <string name="setmenu_hidden">Show hidden Notes</string>
+    <string name="setmenu_aboutus">About us</string>
+    <string name="setmenu_deleteDB">Delete all notes</string>
+    <string name="app_description">ENGLISHLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod porttitor odio vel sodales. Vivamus eu quam nec justo dapibus semper id vitae leo. Sed imperdiet quis est non dictum.
+</string>
+
+</resources>
